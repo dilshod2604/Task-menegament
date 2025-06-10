@@ -6,7 +6,7 @@ import TaskGroups from './sections/TaskGroups'
 const HomePage = () => {
   return (
     <main>
-        <div className='container pt-5 flex flex-col gap-y-5'>
+        <div className='container pt-5 flex flex-col gap-y-5 pb-[150px]'>
             <TodaysTask/>
             <InProgress/> 
             <TaskGroups/>
